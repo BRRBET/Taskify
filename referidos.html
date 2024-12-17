@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación igual que en index.html -->
+    
+    <div class="referidos-container">
+        <h2>Tu Link de Referido</h2>
+        <div class="ref-link">
+            <input type="text" id="refLink" readonly value="https://tudominio.com/registro?ref=1234">
+            <button onclick="copyLink()">Copiar</button>
+        </div>
+
+        <div class="niveles">
+            <div class="nivel">
+                <h3>Nivel 1 (15%)</h3>
+                <p>Referidos: <span id="nivel1-count">0</span></p>
+                <p>Depósitos: <span id="nivel1-deposits">$0</span></p>
+            </div>
+            <div class="nivel">
+                <h3>Nivel 2 (10%)</h3>
+                <p>Referidos: <span id="nivel2-count">0</span></p>
+                <p>Depósitos: <span id="nivel2-deposits">$0</span></p>
+            </div>
+            <div class="nivel">
+                <h3>Nivel 3 (5%)</h3>
+                <p>Referidos: <span id="nivel3-count">0</span></p>
+                <p>Depósitos: <span id="nivel3-deposits">$0</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
